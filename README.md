@@ -1,2 +1,2 @@
-# Leetcode-array
+# Leetcode question
 leetcode practice question
