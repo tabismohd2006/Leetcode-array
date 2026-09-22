@@ -7,7 +7,7 @@ class Solution {
             int height = Math.min(arr[i], arr[j]);
             int currWater = width*height;
             maxWater = Math.max(maxWater, currWater);
-            if(arr[i]< arr[j]){
+            if(arr[i]<= arr[j]){
                 i++;
             } else {
                 j--;
